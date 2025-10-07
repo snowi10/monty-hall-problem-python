@@ -18,6 +18,7 @@ Would you like to stick with Door {int_choice + 1} or switch to Door {doors_arra
         #User input
         final_choice = int(input("\nInput choice: ")) - 1
 
+        #Call the function to let the user know if they won a car or not
         door_outcome(final_choice, doors_array)
 
     #If the user chooses the door with the car in it
@@ -39,6 +40,7 @@ Would you like to stick with Door {int_choice + 1} or switch to Door {other_goat
         #User input
         final_choice = int(input("\nInput choice: ")) - 1
 
+        #Call the function to let the user know if they won a car or not
         door_outcome(final_choice, doors_array)
 
 
